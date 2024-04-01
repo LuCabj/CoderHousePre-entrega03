@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bi{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.p{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.titulo{
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.producto-imagen{
+    max-width: 100%;
+}
+
+main{
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(233, 232, 232);
+    color: rgb(59, 58, 58);
+    text-align: center;
+    font-size: 25px;
+}
+
+.terminos{
+    margin: 0;
+}
+

@@ -1,53 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Lexend:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .bi {
-    font-size: 25px;
-    padding: 10px;
+  font-size: 25px;
+  padding: 10px;
+  color: rgb(0, 67, 138);
 }
 
 .p {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
-.titulo {
-    text-align: center;
-    padding: 20px;
+.tituloh1 {
+  text-align: center;
+  padding-bottom: 30px;
+  color: rgb(0, 67, 138);
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
-.contenedor-productos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-}
-
-.producto-imagen {
-    max-width: 100%;
+.carousel,
+.carousel-inner img {
+  height: 843px;
 }
 
 main {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
+  padding: 30px 0;
 }
 
-footer {
-    background-color: rgb(233, 232, 232);
-    color: rgb(59, 58, 58);
-    text-align: center;
-    font-size: 25px;
+h2 {
+  color: rgb(0, 67, 138);
 }
 
-.terminos {
-    margin: 0;
+div {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
 }
 
-.contenedor a {
-    transition: all ease 400ms;
+h2 {
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
 }
 
-.contenedor a:hover {
-    transform: scale(3);
+h5.card-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=styles.css.map */

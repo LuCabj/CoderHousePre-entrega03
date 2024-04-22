@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mitad más 3 - Faq</title>
+    <meta name="description=" content="Aquí se responde dudas frecuentes de nuestro usuario de la mitad más 3">
+    <meta name="keywords" content="Boca, libertadores, retro, barato, camisetas, buzos, comercio, venta, futbol, preguntas, respuestas">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -14,7 +17,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
-    <title>Proyecto 02</title>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
         <!--NavBar-->
         <nav class="navbar navbar-expand-sm bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Logo</a>
+                <a class="navbar-brand" href="../index.html"><img src="../media/boca-juniors-1.svg" alt="Bootstrap" width="50" height="50"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -39,8 +41,8 @@
                                 Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Actuales</a></li>
-                                <li><a class="dropdown-item" href="#">Retro</a></li>
+                                <li><a class="dropdown-item" href="camisetas.html">Camisetas!</a></li>
+                                <li><a class="dropdown-item" href="otros.html">Otros!</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -120,16 +122,53 @@
                 </div>
             </div>
         </main>
-        <footer class="foot">
-            <div class="contenedor">
-                <a href="https://www.facebook.com/JavierMileiEconomista/"><i class="bi bi-facebook"></i> </a>
-                <a href="https://twitter.com/Lu_sz_"><i class="bi bi-twitter-x"></i></a>
-                <a href="https://www.instagram.com/leomessi/"><i class="bi bi-instagram"></i></a>
-                <p class="terminos">Terminos y Condiciones.</p>
+<!--Comienza el footer-->
+<footer class="text-center bg-body-tertiary">
+    <div class="container pt-4">
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
+
+            <!-- Twitter -->
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-twitter"></i></i></a>
+
+            <!-- Instagram -->
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></i></a>
+
+            <!-- Github -->
+            <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+                data-mdb-ripple-color="dark"><i class="bi bi-github"></i></i></a>
+        </section>
+    </div>
+    <!--NewSletter-->
+    <section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+                        <form>
+                            <h2>ENTERATE DE NUESTRO NUEVOS PRODUCTOS</h2>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Correo Electronico">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="submit">Suscribete!</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            <p class="terminos">Terminos y Condiciones.</p>
-        </footer>
-</body>
+            </div>
+        </div>
+    </section>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2020 Copyright:
+        <a class="text-body" href="https://www.bocajuniors.com.ar/">La Mitad Mas Uno</a>
+    </div>
+    <!--Fin Del footer-->
+</footer>
 </body>
 
 </html>

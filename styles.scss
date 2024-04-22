@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Lexend:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$base-color: rgb(0, 67, 138);
+$font-1: "Lexend", sans-serif;
+$font-2: "Noto Serif", serif;
+$font-3: "Inter", sans-serif;
+
+
+.bi {
+    font-size: 25px;
+    padding: 10px;
+    color: $base-color;
+}
+
+.p {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.tituloh1 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: $base-color;
+    font-family: $font-2;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.carousel,
+.carousel-inner img {
+    height: 843px;
+}
+
+main {
+    padding-bottom: 50px;
+    padding: 30px 0;
+}
+
+h2{
+    color: $base-color;
+}
+
+div {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+h2{
+    font-family: $font-1;
+    font-weight: 600;
+}
+
+h5.card-title{
+    font-family: $font-3;
+    font-weight: 500;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+100% {
+    opacity: 1;
+}
+}
+

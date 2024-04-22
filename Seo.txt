@@ -1,0 +1,11 @@
+1.SEO on-page.
+-Se agregó "meta description" a las 5 páginas de html.
+-Se agregó "keywords" a las 5 páginas de html.
+-Se agregó títulos a las 5 páginas de html.
+-Se agregó la jeraquía de encabezados.
+2.SEO técnico
+-Planificación de navegación a partir de la página principal
+-Lista de ruta de exploración
+-Una optimización móvil con diseño resposivo.
+-Mejora de velocidad de carga de la página mediante la optimización de imagenes.
+-El uso de metodologías como el BEM.
